@@ -5,6 +5,8 @@ public class App
 {
     public static void main( String[] args )
     {
+        //Exercise 1
+
         // using constructors
        Car car = new Car("ab20",2020,"E220","blue",2.4 );
        car.drive();
@@ -22,5 +24,10 @@ public class App
                 " Color: "+car1.getColour()+
                 " Motorsize: "+ car1.getMotorSize());
         car1.drive();
+
+    // Exercise 2
+
+        Rectangle rectangle = new Rectangle(5,20);
+        System.out.println("Area of rectangle is: "+ rectangle.getArea());
     }
 }
